@@ -23,6 +23,6 @@ DATABASES = {
         'USER': 'root',                            # 你的数据库user
         'PASSWORD': '@86Dj3Y(it',                        # 你的数据库password
         'HOST': '172.16.3.214',                   		   # 数据库HOST
-        'PORT': '1521',                        # 默认3306
+        'PORT': '3306',                        # 默认3306
     },
 }
