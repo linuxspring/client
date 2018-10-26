@@ -18,7 +18,7 @@ from settings import APP_ID
 # ===============================================================================
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.oracle',  # 默认用mysql
+        'ENGINE': 'django.db.backends.mysql',  # 默认用mysql
         'NAME': 'gzcss',                        # 数据库名 (默认与APP_ID相同)
         'USER': 'root',                        # 你的数据库user
         'PASSWORD': '@86Dj3Y(it',                        # 你的数据库password
