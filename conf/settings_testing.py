@@ -19,10 +19,10 @@ from settings import APP_ID
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',  # 默认用mysql
-        'NAME': 'orcl',                        # 数据库名 (默认与APP_ID相同)
-        'USER': 'portal',                            # 你的数据库user
-        'PASSWORD': 'gzcss',                        # 你的数据库password
-        'HOST': '172.16.3.223',                   		   # 数据库HOST
+        'NAME': 'gzcss',                        # 数据库名 (默认与APP_ID相同)
+        'USER': 'root',                            # 你的数据库user
+        'PASSWORD': '@86Dj3Y(it',                        # 你的数据库password
+        'HOST': '172.16.3.214',                   		   # 数据库HOST
         'PORT': '1521',                        # 默认3306
     },
 }
